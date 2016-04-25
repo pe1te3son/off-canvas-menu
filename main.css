@@ -1,0 +1,33 @@
+/***************
+Copy from here
+****************/
+body {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#off-nav {
+  min-width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+#off-body {
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.off-shift {
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
+}

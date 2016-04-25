@@ -1,0 +1,18 @@
+/*igore bellow*/
+body {
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+.nav {
+  background: lightblue;
+  margin: 0;
+}
+
+.wrapper {
+  background: lightgray;
+  padding: 20px 40px;
+  height: 100vh;
+}
+/*ignore above*/
