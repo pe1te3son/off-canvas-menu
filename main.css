@@ -28,6 +28,7 @@ body {
 }
 
 .off-shift {
-  -webkit-transform: translateX(300px);
-          transform: translateX(300px);
+ -webkit-transform: translateX(300px);
+     -ms-transform: translateX(300px);
+         transform: translateX(300px);
 }
