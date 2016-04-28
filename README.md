@@ -2,9 +2,9 @@
 
 ### How to use
 
-1. Copy all css from _main.css_
-2. And all javascript from main.js into your scripts
-3. Wrap main navigation in `<div id="off-nav"> </div>`
+1. Copy all css from _main.css_ into your css file
+2. Copy all javascript from _main.js_ into your js file
+3. Wrap main navigation in `<div id="off-nav">`
 4. Add `id="off-body"` to element you want to be shifting
 5. Create button with id `id="off-btn"`
 
